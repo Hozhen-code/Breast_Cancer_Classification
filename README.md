@@ -9,7 +9,7 @@
   - k 값 튜닝으로 Bias-Variance 균형 맞추기
 
 ## 데이터
-PATH = `D:/projects/Breast_cancer/data/breast-cancer.csv`
+utils/paths 패키지로 절대경로 설정
 
 ## 실행 방법
 1. `breast_cancer.ipynb` 실행
