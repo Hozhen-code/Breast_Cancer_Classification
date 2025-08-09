@@ -9,26 +9,21 @@
   - k 값 튜닝으로 Bias-Variance 균형 맞추기
 
 ## 데이터
-PATH = `D:/projects/KNN_breast_cancer/data/breast-cancer.csv`
-
-#### Description:
-Breast cancer is the most common cancer amongst women in the world. It accounts for 25% of all cancer cases, and affected over 2.1 Million people in 2015 alone. It starts when cells in the breast begin to grow out of control. These cells usually form tumors that can be seen via X-ray or felt as lumps in the breast area.
-
-The key challenges against it’s detection is how to classify tumors into malignant (cancerous) or benign(non cancerous). We ask you to complete the analysis of classifying these tumors using machine learning (with SVMs) and the Breast Cancer Wisconsin (Diagnostic) Dataset.
-
+PATH = `D:/projects/Breast_cancer/data/breast-cancer.csv`
 
 ## 실행 방법
-1. `knn_breast_cancer.ipynb` 실행
+1. `breast_cancer.ipynb` 실행
 2. 필요 시 상단 설정에서 CSV 파일명을 수정 (기본: `./data/breast_cancer.csv`)
 
 ## 폴더 구조
 ```
-knn_breast_cancer_project/
-├─ data/
-├─ knn_breast_cancer.ipynb
-├─ README.md
-├─ requirements.txt
-└─ .gitignore
+breast_cancer_project/
+├─ data/ # 원본 데이터
+├─ notebook/ # 분석 및 모델링 Jupyter Notebook
+├─ .gitignore # Git 제외 파일 설정
+├─ .gitattirbutes # Git 파일 처리 규칙 적용
+├─ README.md # 프로젝트 설명
+└─ requirements.txt # 필요한 라이브러리 목록
 ```
 
 ## 결과물
