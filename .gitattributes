@@ -1,0 +1,12 @@
+* text=auto
+
+# 코드/노트북/문서: LF로 통일
+*.py     text eol=lf
+*.ipynb  text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.json   text eol=lf
+*.csv    text eol=lf
+
+# 윈도우 배치 스크립트만 CRLF 허용
+*.bat    text eol=crlf
