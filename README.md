@@ -18,11 +18,12 @@ utils/paths 패키지로 절대경로 설정
 ## 폴더 구조
 ```
 breast_cancer_project/
+├─ utils/
 ├─ data/ # 원본 데이터
-├─ notebook/ # 분석 및 모델링 Jupyter Notebook
 ├─ .gitignore # Git 제외 파일 설정
 ├─ .gitattirbutes # Git 파일 처리 규칙 적용
 ├─ README.md # 프로젝트 설명
+├─ breast_cancer.ipynb
 └─ requirements.txt # 필요한 라이브러리 목록
 ```
 
