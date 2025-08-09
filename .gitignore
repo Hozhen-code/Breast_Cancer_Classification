@@ -15,7 +15,6 @@ __pycache__/
 Thumbs.db
 
 # 데이터/결과(원하면 커밋 제외)
-data/*
 !data/.gitkeep
 outputs/*
 !outputs/.gitkeep
